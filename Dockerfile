@@ -9,3 +9,4 @@ RUN \
 
 ENV PATH /usr/local/rvm/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 
+CMD [ "/bin/bash", "--login" ]
